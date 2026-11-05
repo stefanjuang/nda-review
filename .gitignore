@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+/outputs/
+*.review.json
+!/redline_output.json.review.json
+*.unaccepted-*.txt

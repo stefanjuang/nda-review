@@ -1,0 +1,84 @@
+{
+  "mode": "live",
+  "manual_review_required": true,
+  "questions": [
+    "Context needed: For the opening paragraph and Sections 2.2 and 4.1, please provide the Parties’ legal identities, the agreed Effective Date, the actual transaction or relationship being evaluated, and the specific permitted purpose. Will information flow only from Discloser to Recipient, as this draft assumes?",
+    "Policy conflict: The “Notices and domicile” rule’s ideal and acceptable fields contain unrelated privacy-policy text, while its definition, review instruction, red flags, and example address notice delivery and service addresses. Can the policy owner confirm the intended notice standards and provide corrected fields? The proposed notice correction relies on the independently relevant notice requirements, not the privacy text.",
+    "Policy conflict: The “Breach, dispute and termination” rule has an empty ideal field and privacy-policy text in its acceptable field. Its fallback example also refers to confidentiality obligations under clause 5, which is the return/destruction section in this NDA. Please confirm the intended dispute-resolution and survival policy, including whether the fallback’s applicable-law burden of proof and fifteen-day termination notice are authorized alternatives. The draft uses the independently supported thirty-day notice and removes the express remedies waiver.",
+    "Context needed: Under “Breach, dispute and termination” and Section 11, do the Parties prefer litigation or the playbook’s negotiation → mediation → arbitration process? If arbitration is intended, please confirm the mutually acceptable forum, seat, rules, escalation timing, and any intended review or appeal arrangements for counsel to assess under the selected law. No arbitration procedure has been invented in these edits.",
+    "Context needed: For the “General” and “Notices and domicile” rules, please supply the agreed governing law, court jurisdiction, physical service addresses, and notice email addresses. The unilateral law-selection provision cannot be completed without these decisions.",
+    "Context needed: For “Privacy Policy” and “Recipient's Obligations,” please provide Discloser’s Privacy Notice or Policy and the applicable privacy review standards. Will personal data, sensitive data, or cross-border transfers be involved, and must Representatives receive that data? The proposed summary privacy fallback prohibits onward disclosure, so any necessary processing or onward access should be reviewed by the privacy lead, including whether a separate DPA is required.",
+    "Policy conflict: In “Recipient's Obligations,” the ideal example limits notification to what applicable law requires and refers to “authorised” loss or disclosure, whereas the substantive ideal, red flags, review instruction, and fallback require notification of unauthorized events. Please confirm that the example contains drafting errors and that prompt contractual notification is intended independently of statutory reporting duties.",
+    "Material risk: Section 8.1 expressly eliminates liability and waives damages and injunctive relief. The replacement removes those provisions and adds the required indemnity and remedies language. Will lead counsel review this reversal of the original risk allocation, as required by the “Breach, dispute and termination” escalation instruction?",
+    "Optional stronger protection: The designation-at-disclosure restriction in Section 1.1 satisfies an expressly permitted “Confidential Information” fallback, but it leaves unmarked information and oral disclosures not identified in writing at disclosure unprotected. Do you want the broader ideal definition covering reasonably understood confidential information, unmarked disclosures, and expressly identified pre-agreement disclosures?",
+    "Context needed: For “Confidentiality period” and Sections 3.1 and 4.1, will qualifying trade secrets or proprietary code be disclosed? If so, should trade-secret confidentiality continue while the information qualifies as a trade secret, rather than end three years after the last disclosure?",
+    "Material risk: Section 10.1 treats email as effective on confirmed transmission even if it is not received. This is consistent with the playbook’s sending-based deemed-delivery approach, but can make termination or protective notices effective without actual awareness. Do you want an optional failed-delivery exception or a duplicate physical-delivery requirement for critical notices?",
+    "Context needed: For the optional “Compliance with Laws” rule, will the disclosure involve export-controlled technology, restricted industries, sanctioned destinations, or regulated cross-border transfers? If so, should an applicable export-control and sanctions provision be added after confirming the relevant countries and activities?"
+  ],
+  "manual_review_checklist": [
+    {
+      "playbook_clause_reference": "Confidential Information",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Confidentiality period",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Purpose of NDA",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Recipient's Obligations",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Disclosure required by Law",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Return of confidential information",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Non-solication ",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Ownership",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Accuracy of the confidential information",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Indemnity",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Compliance with Laws",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Privacy Policy",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Breach, dispute and termination",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Notices and domicile",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "Assignment",
+      "status": "not_reviewed"
+    },
+    {
+      "playbook_clause_reference": "General",
+      "status": "not_reviewed"
+    }
+  ]
+}

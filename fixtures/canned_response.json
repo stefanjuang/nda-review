@@ -1,0 +1,12 @@
+{
+  "issues": [
+    {
+      "text_snippet": "Email shall suffice as notice notwithstanding any failure of the intended recipient to receive such email.",
+      "playbook_clause_reference": "Notices and domicile",
+      "suggested_fix": "Notice by email is effective only if the sender does not receive an automated delivery-failure notification. If delivery fails, the sender must give notice using another permitted method."
+    }
+  ],
+  "questions": [
+    "Policy conflict: Notices and domicile has privacy-policy text in ideal and acceptable, while review_instruction addresses notice delivery. What notice terms were intended for those fields?"
+  ]
+}

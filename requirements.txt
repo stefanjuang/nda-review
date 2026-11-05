@@ -1,0 +1,2 @@
+# Pure Python; supports Python 3.8+. The API client and evaluator use the stdlib.
+striprtf==0.0.29
