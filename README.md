@@ -51,7 +51,13 @@ Use new output filenames for each run; existing files are never overwritten.
 - `data/`: supplied document, playbook, and reference, unchanged.
 - `tests/` and `fixtures/`: offline tests and a deliberately incomplete mock response.
 
+### Results
+
 The submitted output has **0/8 exact-reference matches** and seven unscored containment candidates. Matching requires the same rule name and equal snippets after quote/whitespace normalization. Different quote boundaries lose exact-match credit. This measures reference agreement, not legal correctness; unmatched findings are unjudged.
+
+The draft addresses several reference concerns, but policy conflicts and missing context still require review.
+
+In one API run on the supplied NDA and playbook, the request took approximately 133 seconds and cost approximately $0.12 based on recorded usage. Latency and cost vary by model, input size and caching. This is a single-run measurement; cost is an estimate, not an invoice.
 
 ## Scope and limitations
 
